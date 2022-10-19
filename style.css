@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(204, 204, 204);
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(77, 123, 203);
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.pp-img{
+    width: 100px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(235, 244, 249);
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px solid rgb(255, 255, 255);
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+/*----------------------
+PERSONAL SECTION
+-----------------------*/
+#personal section{
+
+}
+.content{
+    margin-bottom: 30px;
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: 1px solid white;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/*----------------------
+EDUCATION SECTION
+-----------------------*/
+.edu-left{
+    float: left;
+    width: 45%;
+
+}
+.edu-right{
+    float: right;
+    width: 45%;
+    
+}
+/*----------------------
+FOOTERS SECTION
+-----------------------*/
+.bottom-container{
+    background-color: darkgray;
+    text-align: center;
+    padding: 10px;
+
+}
+.bottom-container a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    margin-top: 15px;
+}
